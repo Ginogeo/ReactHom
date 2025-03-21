@@ -17,8 +17,8 @@ const CarRentalSearch = () => {
               fill="none"
               style={{
                 position: "absolute",
-                top: "68px",
-                left: "201px",
+                top: "95px",
+                left: "210px",
                 transform: "rotate(6.009deg)",
               }}
             >
