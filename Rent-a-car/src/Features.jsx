@@ -51,7 +51,7 @@ const Features = () => {
   ];
 
   return (
-    <section className="flex justify-between px-40 py-20 bg-slate-950 max-md:p-10">
+    <section id="why-choose-us" className="flex justify-between px-40 py-20 bg-slate-950 max-md:p-10">
       <div className="max-w-xl max-md:max-w-full">
         <div className="px-8 py-4 mb-8 text-sm bg-yellow-400 rounded-lg text-blue-950">
           WHY CHOOSE US
