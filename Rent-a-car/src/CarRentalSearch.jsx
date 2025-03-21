@@ -2,6 +2,21 @@
 import * as React from "react";
 
 const CarRentalSearch = () => {
+  // State to store search criteria
+  const [location, setLocation] = React.useState("");
+  const [pickupDate, setPickupDate] = React.useState("Tue 15 Feb, 09:00");
+  const [returnDate, setReturnDate] = React.useState("Thu 16 Feb, 11:00");
+
+  // Function to handle search
+  const handleSearch = () => {
+    console.log("Searching for cars...");
+    console.log("Location:", location);
+    console.log("Pickup Date:", pickupDate);
+    console.log("Return Date:", returnDate);
+
+    // Add your search logic here (e.g., filter cars, call an API, etc.)
+  };
+
   return (
     <section className="relative px-40 py-16 bg-slate-950 max-md:p-10">
       <div className="flex justify-between items-center max-md:flex-col max-md:text-center">
@@ -58,7 +73,13 @@ const CarRentalSearch = () => {
           </div>
           <div className="flex flex-col gap-3">
             <h3 className="text-base text-white">Location</h3>
-            <p className="text-sm text-white">Search your location</p>
+            <input
+              type="text"
+              placeholder="Search your location"
+              value={location}
+              onChange={(e) => setLocation(e.target.value)}
+              className="text-sm text-white bg-transparent border-b border-white focus:outline-none"
+            />
           </div>
         </div>
 
@@ -74,7 +95,12 @@ const CarRentalSearch = () => {
           </div>
           <div className="flex flex-col gap-3">
             <h3 className="text-base text-white">Pickup date</h3>
-            <p className="text-sm text-white">Tue 15 Feb, 09:00</p>
+            <input
+              type="text"
+              value={pickupDate}
+              onChange={(e) => setPickupDate(e.target.value)}
+              className="text-sm text-white bg-transparent border-b border-white focus:outline-none"
+            />
           </div>
         </div>
 
@@ -90,11 +116,19 @@ const CarRentalSearch = () => {
           </div>
           <div className="flex flex-col gap-3">
             <h3 className="text-base text-white">Return date</h3>
-            <p className="text-sm text-white">Thu 16 Feb, 11:00</p>
+            <input
+              type="text"
+              value={returnDate}
+              onChange={(e) => setReturnDate(e.target.value)}
+              className="text-sm text-white bg-transparent border-b border-white focus:outline-none"
+            />
           </div>
         </div>
 
-        <button className="p-2 text-base text-white rounded-lg cursor-pointer bg-neutral-400 border-[none] max-sm:w-full">
+        <button
+          onClick={handleSearch}
+          className="p-2 text-base text-white rounded-lg cursor-pointer bg-neutral-400 border-[none] max-sm:w-full"
+        >
           Search
         </button>
       </div>

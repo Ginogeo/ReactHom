@@ -21,11 +21,10 @@ const TestimonialsSection = () => {
       author: "Charlie Johnson",
       location: "From New York, US",
     },
-    
   ];
 
   return (
-    <section className="px-0 py-20 bg-slate-950">
+    <section id="testimonials" className="px-0 py-20 bg-slate-950">
       <header className="mb-20 text-center">
         <div className="px-8 py-4 mb-8 text-sm bg-yellow-400 rounded-lg text-blue-950 inline-block">
           TESTIMONIALS

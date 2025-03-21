@@ -108,7 +108,7 @@ const RentalDeals = () => {
   );
 
   return (
-    <section className="px-40 py-20 bg-slate-950 max-md:p-10">
+    <section id="rental-deals" className="px-40 py-20 bg-slate-950 max-md:p-10">
       <header className="mb-20 text-center">
         <p className="px-8 py-4 mb-8 text-sm bg-yellow-400 rounded-lg text-blue-950 font-semibold tracking-wider antialiased">
           POPULAR RENTAL DEALS
