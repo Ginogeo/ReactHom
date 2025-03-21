@@ -1,10 +1,10 @@
 import './App.css'
-import Navbar from './Navbar.tsx'
+import Navbar from './Navbar.jsx'
 import CarRentalSearch from './CarRentalSearch.jsx'
-import HowItWorks from './HowItWorks.tsx'
-import Features from './Features.tsx'
-import RentalDeals from './RentalDeals.tsx'
-import TestimonialsSection from './TestimonialsSection.tsx'
+import HowItWorks from './HowItWorks.jsx'
+import Features from './Features.jsx'
+import RentalDeals from './RentalDeals.jsx'
+import TestimonialsSection from './TestimonialsSection.jsx'
 function App() {
   
 

@@ -29,6 +29,32 @@ const RentalDeals = () => {
       doors: 2,
       price: "$2,300",
     },
+    {
+      image:
+        "https://cdn.builder.io/api/v1/image/assets/TEMP/be3d4c7717a05584d8dab72e7c52eaf687617687",
+      altText: "Honda City",
+      name: "Honda City",
+      rating: "4.5",
+      reviews: "2,036",
+      passengers: 4,
+      transmission: "Auto",
+      hasAC: true,
+      doors: 4,
+      price: "₹ 1,600",
+    },
+    {
+      image:
+        "https://cdn.builder.io/api/v1/image/assets/TEMP/9165feda754d4a0663ca771fdc8a4321184bb970",
+      altText: "Honda City",
+      name: "Honda City",
+      rating: "4.5",
+      reviews: "2,036",
+      passengers: 4,
+      transmission: "Auto",
+      hasAC: true,
+      doors: 4,
+      price: "₹ 1,600",
+    },
   ];
 
   const IconText = ({ icon, text }) => (

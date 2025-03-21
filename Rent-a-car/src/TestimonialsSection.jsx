@@ -15,6 +15,13 @@ const TestimonialsSection = () => {
       author: "Charlie Johnson",
       location: "From New York, US",
     },
+    {
+      rating: 5.0,
+      text: "I feel very secure when using RentaRide's services. Your customer care team is very enthusiastic and the driver is always on time.",
+      author: "Charlie Johnson",
+      location: "From New York, US",
+    },
+    
   ];
 
   return (
