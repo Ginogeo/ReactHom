@@ -5,6 +5,7 @@ import HowItWorks from './HowItWorks.jsx'
 import Features from './Features.jsx'
 import RentalDeals from './RentalDeals.jsx'
 import TestimonialsSection from './TestimonialsSection.jsx'
+import Footer from './Footer.jsx'
 function App() {
   
 
@@ -17,6 +18,7 @@ function App() {
           <Features/>
           <RentalDeals/>
           <TestimonialsSection/>
+          <Footer/>
       </div>
         
     </>
