@@ -11,7 +11,7 @@ const NavBar = () => {
   ];
 
   return (
-    <header className="flex justify-between items-center px-40 py-5 bg-slate-950 max-md:p-10 max-sm:p-5">
+    <header className="flex justify-between items-center px-60 py-5 bg-slate-950 max-md:p-10 max-sm:p-5">
       {/* Logo */}
       <a href="/" aria-label="Go to homepage">
         <img
